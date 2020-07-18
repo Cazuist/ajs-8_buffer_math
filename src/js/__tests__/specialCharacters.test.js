@@ -46,7 +46,7 @@ describe('Начинаем тестирование класса SpecialCharacte
         const char = new SpecialCharacters('Daemon');
         char.attack = 100;
 
-        char.setAttack(range)
+        char.setAttack(range);
 
         expect(char.modifiedAttack).toBe(expected);
       },
@@ -67,7 +67,7 @@ describe('Начинаем тестирование класса SpecialCharacte
         char.attack = 100;
         char.setStoned(true);
 
-        char.setAttack(range)
+        char.setAttack(range);
 
         expect(char.modifiedAttack).toBe(expected);
       },
@@ -128,7 +128,7 @@ describe('Начинаем тестирование класса Daemon', () => 
         const daemon = new Daemon();
         daemon.attack = 100;
 
-        daemon.setAttack(range)
+        daemon.setAttack(range);
 
         expect(daemon.modifiedAttack).toBe(expected);
       },
@@ -149,7 +149,7 @@ describe('Начинаем тестирование класса Daemon', () => 
         daemon.attack = 100;
         daemon.setStoned(true);
 
-        daemon.setAttack(range)
+        daemon.setAttack(range);
 
         expect(daemon.modifiedAttack).toBe(expected);
       },
@@ -210,7 +210,7 @@ describe('Начинаем тестирование класса Magician', () =
         const magician = new Magician();
         magician.attack = 100;
 
-        magician.setAttack(range)
+        magician.setAttack(range);
 
         expect(magician.modifiedAttack).toBe(expected);
       },
@@ -231,7 +231,7 @@ describe('Начинаем тестирование класса Magician', () =
         magician.attack = 100;
         magician.setStoned(true);
 
-        magician.setAttack(range)
+        magician.setAttack(range);
 
         expect(magician.modifiedAttack).toBe(expected);
       },

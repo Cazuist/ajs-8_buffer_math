@@ -15,9 +15,9 @@ export default class SpecialCharacters {
   setAttack(range) {
     this.modifiedAttack = this.attack * (1 - (range - 1) * 0.1);
 
-    if(this.getStoned()) {
-      this.modifiedAttack = Math.round(this.modifiedAttack - Math.log2(range) * 5); 
-    } 
+    if (this.getStoned()) {
+      this.modifiedAttack = Math.round(this.modifiedAttack - Math.log2(range) * 5);
+    }
   }
 
   getAttack() {
@@ -27,9 +27,8 @@ export default class SpecialCharacters {
   // eslint-disable-next-line class-methods-use-this
   getCharactersList() {
     return {
-      Magician: { attack: 100, defence: 40},
+      Magician: { attack: 100, defence: 40 },
       Daemon: { attack: 100, defence: 25 },
     };
   }
 }
-  

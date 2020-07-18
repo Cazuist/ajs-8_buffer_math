@@ -1,7 +1,7 @@
 import SpecialCharacters from './SpecialCharacters';
 
 export default class Daemon extends SpecialCharacters {
-  constructor(type='Daemon') {
+  constructor(type = 'Daemon') {
     super(type);
   }
 }
